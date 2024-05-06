@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.color {
+  background-color: rgba(0, 0, 0, 0.692);
+}
+.main {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/4da5d2b1-1b22-498d-90c0-4d86701dffcc/98a1cb1e-5a1d-4b98-a46f-995272b632dd/IN-en-20240129-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1600px, 100vw);
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+.main .box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.44;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  padding-top: 40px;
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+nav img {
+  width: 200px;
+  position: relative;
+  z-index: 15;
+}
+nav button {
+  position: relative;
+  z-index: 15;
+}
+.btn-sw {
+  display: flex;
+  margin-left: 50px;
+  gap: 15px;
+}
+.selector {
+  /* display: flex; */
+  margin-left: 50px;
+  /* gap: 15px; */
+  border-radius: 4px;
+  background-color: rgba(75, 75, 75, 0.202);
+}
+.hero {
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  font-family: "Martel Sans", sans-serif;
+  gap: 0px;
+  padding: 30px;
+}
+.hero > :nth-child(1) {
+  margin-top: 50px;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.hero-int {
+  display: flex;
+  gap: 30px;
+}
+.sepration {
+  height: 6.5px;
+  background-color: rgb(54, 50, 50);
+}
+.btn {
+  font-family: "Martel Sans", sans-serif;
+  padding: 8px 40px;
+  /* font-weight: bold; */
+  background-color: rgba(172, 166, 166, 0.1);
+  color: white;
+  font-weight: 500;
+  border: 0.5px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+
+  /* padding: 5px 30px 5px 30px; */
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 9px 31px;
+  font-size: 20px;
+  font-weight: 100;
+  border-radius: 4px;
+  border: 0.1px solid red;
+  cursor: pointer;
+}
+.btn-red-sm {
+  background-color: red;
+  border: 0.5px solid red;
+  font-weight: 700;
+  color: white;
+  padding: 8px 12px;
+}
+.main input {
+  padding: 9px 186px 9px 11px;
+  color: rgb(255, 255, 255);
+  border: 0.5px solid;
+  border-radius: 4px;
+  border-color: aquamarine;
+  background-color: rgba(23, 23, 23, 0.2);
+}
+.first {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 65vw;
+  margin: auto;
+  color: white;
+}
+.secimg {
+  position: relative;
+}
+.secimg img {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  /* overflow-clip-margin: content-box; */
+  overflow: clip;
+}
+.secimg video {
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.first div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.first div :nth-child(1) {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.first div :nth-child(2) {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.third .secimg video {
+  position: absolute;
+  width: 20vw;
+  left: 0;
+  right: 5px;
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 63%;
+  max-height: 47%;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.faq h2 {
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.faqbox:hover {
+  background-color: rgb(108, 108, 108);
+}
+.faqbox {
+  transition: all 0.5s ease-in;
+  display: flex;
+  font-size: 24px;
+  background-color: rgb(78, 76, 76);
+  padding: 24px;
+  margin: 3px auto;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 60vw;
+  cursor: pointer;
+}
+
+.heroto {
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  font-family: "Martel Sans", sans-serif;
+  gap: 0px;
+  padding: 30px;
+}
+.heroto > :nth-child(1) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.heroto input {
+  padding: 9px 186px 9px 11px;
+  color: rgb(255, 255, 255);
+  border: 0.5px solid;
+  border-radius: 4px;
+  border-color: aquamarine;
+  background-color: rgba(23, 23, 23, 0.2);
+}
+footer {
+  color: rgb(163, 163, 163);
+  margin-bottom: 60px;
+}
+footer .question {
+  display: flex;
+
+  margin-left: 7.48rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+.question p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  max-width: 80vw;
+  margin: auto;
+  gap: 30px;
+}
+footer a {
+  color: rgb(163, 163, 163);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.selecter {
+  background-color: rgb(0, 0, 0);
+  margin-top: 35px;
+  margin-left: 120px;
+}
+select {
+  /* Reset */
+  appearance: none;
+  border: 0.5px solid rgba(99, 99, 99, 0.764);
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 6rem;
+  padding: 5px 5px 5px 5px;
+  background: rgba(0, 0, 0, 0.158);
+  color: rgb(255, 255, 255);
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(226, 219, 219, 0.2);
+  cursor: pointer;
+}
